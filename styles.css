@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkseagreen;
+}
+
+#main-content {
+    margin-left: 20px;
+}
