@@ -1,11 +1,29 @@
+@font-face {
+    font-family: jaapokki;
+    src: url(fonts/jaapokki-regular.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     background-color: darkseagreen;
+    font-family: jaapokki, Calibri, "sans-serif";
+    font-size: 25px;
 }
 
 #main-content {
     margin-left: 20px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    margin-top: 0px;
+    font-size: 25px;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
